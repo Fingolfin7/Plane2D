@@ -12,7 +12,7 @@ project "Plane2D"
 
 	targetdir "%{cfg.buildcfg}"
 	
-	files {"%{prj.name}/**.cpp","%{prj.name}/**.h"}
+	files {"../Plane2D/**.cpp","../Plane2D/**.h"}
 
 filter "configurations:Debug"
 	defines {"DEBUG"}
