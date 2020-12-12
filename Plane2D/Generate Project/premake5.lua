@@ -10,8 +10,7 @@ project "Plane2D"
 	kind "ConsoleApp"
 	language "C++"
 
-	targetdir "%{cfg.buildcfg}"
-	
+	targetdir "../%{cfg.buildcfg}"
 	files {"../Plane2D/**.cpp","../Plane2D/**.h"}
 
 filter "configurations:Debug"
