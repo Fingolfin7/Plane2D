@@ -18,19 +18,19 @@ Source.cpp also contains an example of a Cube created using `Plane2D.h`
 
 ### The Plane2D class:  
 
--> Contains a two dimensional vector, called plane, that holds "pointStates" that determine if a given point is empty, contains a dot, or is occupied.
+-> Contains a two dimensional vector, called `plane`, that holds "pointStates" that determine if a given point is empty, contains a dot, or is occupied.
     
--> Has a drawPlane() method that draws the plane onto the screen
+-> Has a `drawPlane()` method that draws the plane onto the screen
 
--> Has a setPoint() method that takes in a row, and column index to set a point on the plane
+-> Has a `setPoint()` method that takes in a row, and column index to set a point on the plane
     
--> Has a makeLine() method that takes int two points and draws a line between those two points
+-> Has a `makeLine()` method that takes int two points and draws a line between those two points
 
--> Has a makeShell() method that draws an outer shell for a given set of points
+-> Has a `makeShell()` method that draws an outer shell for a given set of points
     
--> Has a save() method that saves the plane into two files, one containing indexes for all the points, and another containing the indexes for lines. 
+-> Has a `save()` method that saves the plane into two files, one containing indexes for all the points, and another containing the indexes for lines. 
 
--> Has a loadsave() method that loads in the plane from the two files mentioned above. 
+-> Has a `loadsave()` method that loads in the plane from the two files mentioned above. 
 
 -> An array holding all the points made on the plane, called `pointsArr`
 
