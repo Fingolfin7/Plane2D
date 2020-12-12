@@ -37,5 +37,6 @@ Source.cpp also contains an example of a Cube created using `Plane2D.h`
 -> An array holding the indexes of "from-to" points in pointsArr for making lines, called `linesArr`. E.g a line from the point at index 0 to the point at index 1
 
 
+### Contribute to the project
 
 Take a look, run the code, and contribute if you'd like!
