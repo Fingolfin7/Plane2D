@@ -1,2 +1,4 @@
 # Plane2D
-A C++ header files that allows you to create 2D planes, set points and draw lines
+A C++ header file that allows you to create 2D planes, set points and draw lines
+
+
