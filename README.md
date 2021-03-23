@@ -1,3 +1,4 @@
+![Screenshot](https://github.com/Fingolfin7/Plane2D/blob/main/cube%203d.png?raw=true)
 # Plane2D
 A C++ header file I worked that allows you to create 2D planes and "draw" on them. You can set points, draw lines, save, and load in your planes.
 
